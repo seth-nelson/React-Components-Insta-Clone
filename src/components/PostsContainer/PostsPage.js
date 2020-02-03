@@ -7,10 +7,9 @@ import "./Posts.css";
 const PostsPage = () => {
   return (
     <div className="posts-container-wrapper">
-      {/* map through data here */}
+      
     </div>
   );
 };
 
 export default PostsPage;
-

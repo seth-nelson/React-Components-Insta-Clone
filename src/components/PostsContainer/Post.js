@@ -14,10 +14,7 @@ const Post = props => {
 
   return (
     <div className="post-border">
-      <PostHeader 
-      username={props.post.username} 
-      thumbnailUrl={props.post.thumbnailUrl}
-      />
+      <PostHeader username={props.post.username} thumbnailUrl={props.post.thumbnailUrl} />
 
       <div className="post-image-wrapper">
         <img 
